@@ -50,6 +50,14 @@ body {
     color: red;
 }
 
+.title {
+    position: absolute;
+    width: 80px;
+    bottom: 50%;
+    left: 8%;
+    border: 1px solid red;
+}
+
 .billboard {
     background-image: url("../img/billboard-bg.svg");
     background-size: cover;
@@ -58,12 +66,13 @@ body {
     height: 100%;
     position: relative;
     margin: 0 auto;
+    padding: 80px;
 }
 
 .rocking-chair {
     position: absolute;
-    width: 60px;
-    bottom: 15%;
+    width: 50px;
+    bottom: 10%;
     left: 55%;
     border: 1px solid red;
     xheight: 100px;
