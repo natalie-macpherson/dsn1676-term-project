@@ -20,6 +20,11 @@ body {
     padding: 0;
 }
 
+.img-flex {
+    display: block;
+    width: 100%;
+}
+
 .skip-links {
     margin: 0;
     padding: 0;
@@ -41,11 +46,6 @@ body {
     top: 0;
 }
 
-.img-flex {
-    display: block;
-    width: 100%;
-}
-
 .red {
     color: red;
 }
@@ -63,6 +63,20 @@ body {
 .rocking-chair {
     position: absolute;
     width: 60px;
-    bottom: calc(15%);
-    left: calc(55%);
+    bottom: 15%;
+    left: 55%;
+    border: 1px solid red;
+    xheight: 100px;
+    -webkit-amimation: chair-rotate 7s ease-in-out infinite alternate;
+    amimation: chair-rotate 7s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframe chair-rotate {
+    0% {transform: rotate(-45deg);}
+    100% {transform: rotate(45deg);}
+}
+
+@keyframe chair-rotate {
+    0% {transform: rotate(-45deg);}
+    100% {transform: rotate(45deg);}
 }
