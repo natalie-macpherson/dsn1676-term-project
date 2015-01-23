@@ -73,14 +73,14 @@ body {
 }
 
 @-webkit-keyframes chair-rock {
-    0% {-webkit-transform: rock(-45deg);}
-    100% {-webkit-transform: rock(45deg);}
+    0% {-webkit-transform: rotate(-45deg);}
+    100% {-webkit-transform: rotate(45deg);}
 }
 
 @keyframes chair-rock {
-    0% {transform: rock(0deg);}
-    50% {transfrom: rock(-45deg);}
-    100% {transform: rock(45deg);}
+    0% {transform: rotate(0deg);}
+    50% {transfrom: rotate(-45deg);}
+    100% {transform: rotate(45deg);}
 }
 
 .title {
