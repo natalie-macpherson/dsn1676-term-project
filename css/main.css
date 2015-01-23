@@ -50,14 +50,6 @@ body {
     color: red;
 }
 
-.title {
-    position: absolute;
-    width: 80px;
-    bottom: 50%;
-    left: 8%;
-    border: 1px solid red;
-}
-
 .billboard {
     background-image: url("../img/billboard-bg.svg");
     background-size: cover;
@@ -76,16 +68,42 @@ body {
     left: 55%;
     border: 1px solid red;
     xheight: 100px;
-    -webkit-amimation: chair-rotate 7s ease-in-out infinite alternate;
-    amimation: chair-rotate 7s ease-in-out infinite alternate;
+    -webkit-animation: chair-rock 3s ease-in-out infinite alternate;
+    animation: chair-rock 3s ease-in-out infinite alternate;
 }
 
-@-webkit-keyframe chair-rotate {
-    0% {transform: rotate(-45deg);}
-    100% {transform: rotate(45deg);}
+@-webkit-keyframes chair-rock {
+    0% {-webkit-transform: rock(-45deg);}
+    100% {-webkit-transform: rock(45deg);}
 }
 
-@keyframe chair-rotate {
-    0% {transform: rotate(-45deg);}
-    100% {transform: rotate(45deg);}
+@keyframes chair-rock {
+    0% {transform: rock(0deg);}
+    50% {transfrom: rock(-45deg);}
+    100% {transform: rock(45deg);}
 }
+
+.title {
+    position: absolute;
+    width: 80px;
+    bottom: 50%;
+    left: 8%;
+    border: 1px solid red;
+    -webkit-animation: cloud 7s ease-in-out infinite alternate;
+    animation: cloud 7s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes cloud{
+    0% {transform: translateX(0);}
+    25% {transform: translateX(9px);}
+    50% {transform: translateY(20px);}
+    75% {transform: translateX(-9px);}
+    100% {transform: translateY(10px);}
+}
+
+@keyframes cloud{
+    0% {transform: translateX(0);}
+    25% {transform: translateX(9px);}
+    50% {transform: translateY(20px);}
+    75% {transform: translateX(-9px);}
+    100% {transform: translateY(10px);}
