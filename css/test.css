@@ -1,0 +1,25 @@
+body {
+	background-color: #A18648;
+	color: #4863A0;
+	font-size: 1.5rem;
+	font-weight: 1.5rem;
+	margin: 0;
+}
+
+#answer {
+    border: 2px solid red;
+    color: #4863A0;
+    text-align: center;
+    margin:  70px auto 15px auto;
+    padding: 10px;
+    width:	250px;
+}
+
+#math {
+	height: 200px;
+	padding: 20px;
+	width: 300px;
+	background-color: white;
+	border: 10px solid black;
+}
+
