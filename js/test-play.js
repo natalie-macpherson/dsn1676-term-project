@@ -1,5 +1,5 @@
-var pass = 50;
-var score = 90;
+var pass =5;
+var score = 2;
 
 var hasPassed = score >= pass;
 
