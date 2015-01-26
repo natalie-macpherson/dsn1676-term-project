@@ -52,10 +52,11 @@ body {
 
 .billboard {
     background-image: url("../img/billboard-bg.svg");
-    background-size: cover;
+    background-repeat: repeat-x;
+    /*background-size: cover;*/
     overflow: hidden;
     width: 100%;
-    height: 100%;
+    height: 25vh;
     position: relative;
     margin: 0 auto;
     padding: 80px;
@@ -63,8 +64,8 @@ body {
 
 .rocking-chair {
     position: absolute;
-    width: 50px;
-    bottom: 10%;
+    width: 45px;
+    bottom: 20%;
     left: 55%;
     border: 1px solid red;
     xheight: 100px;
@@ -85,9 +86,17 @@ body {
     10% {transform: rotate(10deg);}
 }
 
+.window {
+    position: absolute;
+    width: 75px;
+    left: 60%;
+    bottom:50%;
+    border: 1px solid red;
+}
+
 .title {
     position: absolute;
-    width: 80px;
+    width: 75px;
     bottom: 50%;
     left: 8%;
     border: 1px solid red;
@@ -109,3 +118,117 @@ body {
     50% {transform: translateY(20px);}
     75% {transform: translateX(-9px);}
     100% {transform: translateY(10px);}
+}
+
+.mouse {
+    position: absolute;
+    width: 20px;
+    bottom: 20%;
+    left: -15px;
+    xborder: 1px solid red;
+    -webkit-animation: mouse 4s ease-in-out infinite alternate;
+    animation: mouse 4s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes mouse {
+    0% {left: -15px;}
+    100% {left: 100%;}
+}
+
+@keyframes mouse {
+    0% {left: -15px;}
+    100% {left: 100%;}
+}
+
+@media only screen and (min-width: 25em) {
+
+    .billboard {
+        height: 50vh;
+    }
+
+    .rocking-chair {
+        width: 85px;
+        bottom: 27%;
+        left: 42%;
+    }
+
+    .window {
+        width: 150px;
+        bottom:55%;
+        left: 45%;
+    }
+
+    .title {
+        width: 120px;
+        bottom:60%;
+        left: 10%;
+    }
+
+    .mouse {
+       width: 40px;
+        bottom:27%;
+    }
+
+}
+
+
+@media only screen and (min-width: 38em) {
+     .billboard {
+        height: 75vh;
+    }
+
+     .rocking-chair {
+        width: 120px;
+        bottom: 30%;
+        left: 60%;
+    }
+
+    .window {
+        width: 200px;
+        bottom: 50%;
+        left: 60%;
+    }
+
+    .title {
+        width: 230px;
+        bottom:60%;
+        left: 10%;
+    }
+
+    .mouse {
+        width: 50px;
+        bottom: 30%;
+    }
+}
+
+
+@media only screen and (min-width: 60em) {
+     .billboard {
+        height: 100vh;
+    }
+
+    .rocking-chair {
+        width: 170px;
+        bottom: 20%;
+        left: 60%;
+    }
+
+    .window {
+        width: 300px;
+        bottom: 50%;
+        left: 60%;
+    }
+
+    .title {
+        width: 320px;
+        bottom:60%;
+        left: 10%;
+    }
+
+    .mouse {
+        width: 70px;
+        bottom: 20%;
+    }
+}
+
+

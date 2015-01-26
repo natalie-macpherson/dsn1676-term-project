@@ -2,8 +2,8 @@
 <!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 1009.3 768.4" enable-background="new 0 0 1009.3 768.4" xml:space="preserve">
-<pattern  x="-15.2" y="0.4" width="38" height="38" patternUnits="userSpaceOnUse" id="flowers" viewBox="12.9 -44.7 38 38" overflow="visible">
+	 viewBox="0 0 1008.3 768.4" enable-background="new 0 0 1008.3 768.4" xml:space="preserve">
+<pattern  x="-15.7" y="0.4" width="38" height="38" patternUnits="userSpaceOnUse" id="flowers" viewBox="12.9 -44.7 38 38" overflow="visible">
 	<g>
 		<polygon fill="none" points="12.9,-44.7 50.9,-44.7 50.9,-6.7 12.9,-6.7 		"/>
 		<g>
@@ -1528,89 +1528,9 @@
 		</g>
 	</g>
 </pattern>
-<pattern  x="-15.2" y="0.4" width="110" height="115" patternUnits="userSpaceOnUse" id="lines" viewBox="0 -115 110 115" overflow="visible">
-	<g>
-		<polygon fill="none" points="0,-115 110,-115 110,0 0,0 		"/>
-		<g>
-			<line fill="#9E005D" stroke="#7E340C" stroke-miterlimit="10" x1="88.5" y1="-115" x2="88.5" y2="0"/>
-			<line fill="#9E005D" stroke="#7E340C" stroke-miterlimit="10" x1="94.5" y1="-115" x2="94.5" y2="0"/>
-			<line fill="#9E005D" stroke="#7E340C" stroke-miterlimit="10" x1="102.5" y1="-115" x2="102.5" y2="0"/>
-			<line fill="#9E005D" stroke="#7E340C" stroke-miterlimit="10" x1="109.5" y1="-115" x2="109.5" y2="0"/>
-		</g>
-		<g>
-			<line fill="#9E005D" stroke="#7E340C" stroke-miterlimit="10" x1="66.5" y1="-115" x2="66.5" y2="0"/>
-			<line fill="#9E005D" stroke="#7E340C" stroke-miterlimit="10" x1="72.5" y1="-115" x2="72.5" y2="0"/>
-			<line fill="#9E005D" stroke="#7E340C" stroke-miterlimit="10" x1="80.5" y1="-115" x2="80.5" y2="0"/>
-			<line fill="#9E005D" stroke="#7E340C" stroke-miterlimit="10" x1="87.5" y1="-115" x2="87.5" y2="0"/>
-		</g>
-		<g>
-			<line fill="#9E005D" stroke="#7E340C" stroke-miterlimit="10" x1="44.5" y1="-115" x2="44.5" y2="0"/>
-			<line fill="#9E005D" stroke="#7E340C" stroke-miterlimit="10" x1="50.5" y1="-115" x2="50.5" y2="0"/>
-			<line fill="#9E005D" stroke="#7E340C" stroke-miterlimit="10" x1="58.5" y1="-115" x2="58.5" y2="0"/>
-			<line fill="#9E005D" stroke="#7E340C" stroke-miterlimit="10" x1="65.5" y1="-115" x2="65.5" y2="0"/>
-		</g>
-		<g>
-			<line fill="#9E005D" stroke="#7E340C" stroke-miterlimit="10" x1="22.5" y1="-115" x2="22.5" y2="0"/>
-			<line fill="#9E005D" stroke="#7E340C" stroke-miterlimit="10" x1="28.5" y1="-115" x2="28.5" y2="0"/>
-			<line fill="#9E005D" stroke="#7E340C" stroke-miterlimit="10" x1="36.5" y1="-115" x2="36.5" y2="0"/>
-			<line fill="#9E005D" stroke="#7E340C" stroke-miterlimit="10" x1="43.5" y1="-115" x2="43.5" y2="0"/>
-		</g>
-		<g>
-			<line fill="#9E005D" stroke="#7E340C" stroke-miterlimit="10" x1="0.5" y1="-115" x2="0.5" y2="0"/>
-			<line fill="#9E005D" stroke="#7E340C" stroke-miterlimit="10" x1="6.5" y1="-115" x2="6.5" y2="0"/>
-			<line fill="#9E005D" stroke="#7E340C" stroke-miterlimit="10" x1="14.5" y1="-115" x2="14.5" y2="0"/>
-			<line fill="#9E005D" stroke="#7E340C" stroke-miterlimit="10" x1="21.5" y1="-115" x2="21.5" y2="0"/>
-		</g>
-	</g>
-</pattern>
+<rect x="-19.8" y="0" fill="#D19040" width="1062" height="768.4"/>
 <g>
-	<rect x="0.5" y="0" fill="#F8F7D9" width="1008.3" height="562.5"/>
-	<rect x="0.5" y="0" fill="url(#flowers)" width="1008.3" height="562.5"/>
-	<rect x="0.5" y="0" fill="none" stroke="#000000" stroke-width="0.9847" stroke-miterlimit="10" width="1008.3" height="562.5"/>
-</g>
-<rect x="0.5" y="499.7" fill="#D19040" width="1008.3" height="268.8"/>
-<g>
-	<linearGradient id="SVGID_167_" gradientUnits="userSpaceOnUse" x1="775.501" y1="359.8048" x2="775.501" y2="133.6373">
-		<stop  offset="3.366151e-02" style="stop-color:#FFCC8D"/>
-		<stop  offset="0.3216" style="stop-color:#D9CBB6"/>
-		<stop  offset="0.5508" style="stop-color:#BECAD3"/>
-		<stop  offset="0.7274" style="stop-color:#B9D5E6"/>
-		<stop  offset="1" style="stop-color:#B3E4FF"/>
-	</linearGradient>
-	<rect x="628.4" y="133.7" fill="url(#SVGID_167_)" width="294.3" height="231.7"/>
-	<path fill="#7E340C" d="M628.8,133.4v233h301v-233H628.8z M917.8,356.4h-277v-213h277V356.4z"/>
-	<line fill="none" stroke="#7E340C" stroke-width="10" stroke-miterlimit="10" x1="774.8" y1="143.4" x2="774.8" y2="366.4"/>
-	<line fill="none" stroke="#7E340C" stroke-width="10" stroke-miterlimit="10" x1="628.8" y1="250.4" x2="917.8" y2="250.4"/>
-	<g>
-		<g>
-			<g>
-				<path fill="#D8AC89" d="M912.6,187.4c0,0,4.5,16.6,13.6,18.1c0,0,21.2,3.9,24.2-18.1H912.6z"/>
-				<path fill="#D8AC89" d="M869.3,187.4c0,0,4.5,16.6,13.6,18.1c0,0,21.2,3.9,24.2-18.1H869.3z"/>
-				<path fill="#D8AC89" d="M826,187.4c0,0,4.5,16.6,13.6,18.1c0,0,21.2,3.9,24.2-18.1H826z"/>
-				<path fill="#D8AC89" d="M782.6,187.4c0,0,4.5,16.6,13.6,18.1c0,0,21.2,3.9,24.2-18.1H782.6z"/>
-				<path fill="#D8AC89" d="M739.3,187.4c0,0,4.5,16.6,13.6,18.1c0,0,21.2,3.9,24.2-18.1H739.3z"/>
-				<path fill="#D8AC89" d="M696,187.4c0,0,4.5,16.6,13.6,18.1c0,0,21.2,3.9,24.2-18.1H696z"/>
-				<path fill="#D8AC89" d="M652.7,187.4c0,0,4.5,16.6,13.6,18.1c0,0,21.2,3.9,24.2-18.1H652.7z"/>
-				<path fill="#D8AC89" d="M609.3,187.4c0,0,4.5,16.6,13.6,18.1c0,0,21.2,3.9,24.2-18.1H609.3z"/>
-			</g>
-			<g>
-				<path fill="url(#lines)" d="M912.6,187.4c0,0,4.5,16.6,13.6,18.1c0,0,21.2,3.9,24.2-18.1H912.6z"/>
-				<path fill="url(#lines)" d="M869.3,187.4c0,0,4.5,16.6,13.6,18.1c0,0,21.2,3.9,24.2-18.1H869.3z"/>
-				<path fill="url(#lines)" d="M826,187.4c0,0,4.5,16.6,13.6,18.1c0,0,21.2,3.9,24.2-18.1H826z"/>
-				<path fill="url(#lines)" d="M782.6,187.4c0,0,4.5,16.6,13.6,18.1c0,0,21.2,3.9,24.2-18.1H782.6z"/>
-				<path fill="url(#lines)" d="M739.3,187.4c0,0,4.5,16.6,13.6,18.1c0,0,21.2,3.9,24.2-18.1H739.3z"/>
-				<path fill="url(#lines)" d="M696,187.4c0,0,4.5,16.6,13.6,18.1c0,0,21.2,3.9,24.2-18.1H696z"/>
-				<path fill="url(#lines)" d="M652.7,187.4c0,0,4.5,16.6,13.6,18.1c0,0,21.2,3.9,24.2-18.1H652.7z"/>
-				<path fill="url(#lines)" d="M609.3,187.4c0,0,4.5,16.6,13.6,18.1c0,0,21.2,3.9,24.2-18.1H609.3z"/>
-			</g>
-		</g>
-		<g>
-			<g>
-				<rect x="607.2" y="98.2" fill="#D8AC89" width="341.5" height="89.2"/>
-				<rect x="607.2" y="98.2" fill="url(#lines)" width="341.5" height="89.2"/>
-			</g>
-			<line fill="#7E340C" stroke="#7E340C" stroke-width="2" stroke-miterlimit="10" x1="607.8" y1="185.4" x2="949.8" y2="185.4"/>
-		</g>
-	</g>
+	<rect x="-19.8" y="0" fill="#F8F7D9" width="1062" height="562.5"/>
+	<rect x="-19.8" y="0" fill="url(#flowers)" width="1062" height="562.5"/>
 </g>
 </svg>
