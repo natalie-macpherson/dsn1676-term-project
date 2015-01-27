@@ -12,9 +12,10 @@ var question1 = function (){
 	}
 	else
 	{
-		el.innerHTML = 'Level Failed: You Suck';
+		el.innerHTML = 'Level Failed: Try Again';
 	}
 
 };
 
 document.querySelector('.button').addEventListener('click', question1);
+
