@@ -67,7 +67,6 @@ body {
     width: 45px;
     bottom: 20%;
     left: 55%;
-    border: 1px solid red;
     xheight: 100px;
     -webkit-transform-origin:center bottom;
     -webkit-animation: chair-rock 3s ease-in-out infinite alternate;
@@ -91,7 +90,6 @@ body {
     width: 75px;
     left: 60%;
     bottom:50%;
-    border: 1px solid red;
 }
 
 .title {
@@ -99,7 +97,6 @@ body {
     width: 75px;
     bottom: 50%;
     left: 8%;
-    border: 1px solid red;
     -webkit-animation: cloud 7s ease-in-out infinite alternate;
     animation: cloud 7s ease-in-out infinite alternate;
 }
@@ -125,7 +122,6 @@ body {
     width: 20px;
     bottom: 20%;
     left: -15px;
-    xborder: 1px solid red;
     -webkit-animation: mouse 4s ease-in-out infinite alternate;
     animation: mouse 4s ease-in-out infinite alternate;
 }
@@ -149,19 +145,19 @@ body {
     .rocking-chair {
         width: 85px;
         bottom: 27%;
-        left: 42%;
+        left: 50%;
     }
 
     .window {
         width: 150px;
         bottom:55%;
-        left: 45%;
+        left: 50%;
     }
 
     .title {
-        width: 120px;
+        width: 140px;
         bottom:60%;
-        left: 10%;
+        left: 8%;
     }
 
     .mouse {
@@ -178,26 +174,26 @@ body {
     }
 
      .rocking-chair {
-        width: 120px;
-        bottom: 30%;
-        left: 60%;
+        width: 140px;
+        bottom: 20%;
+        left: 50%;
     }
 
     .window {
-        width: 200px;
+        width: 260px;
         bottom: 50%;
-        left: 60%;
+        left: 58%;
     }
 
     .title {
-        width: 230px;
-        bottom:60%;
-        left: 10%;
+        width: 280px;
+        bottom:55%;
+        left: 7%;
     }
 
     .mouse {
         width: 50px;
-        bottom: 30%;
+        bottom: 22%;
     }
 }
 
@@ -208,20 +204,20 @@ body {
     }
 
     .rocking-chair {
-        width: 170px;
-        bottom: 20%;
-        left: 60%;
+        width: 200px;
+        bottom: 17%;
+        left: 55%;
     }
 
     .window {
-        width: 300px;
+        width: 380px;
         bottom: 50%;
         left: 60%;
     }
 
     .title {
-        width: 320px;
-        bottom:60%;
+        width: 450px;
+        bottom:50%;
         left: 10%;
     }
 
@@ -230,5 +226,3 @@ body {
         bottom: 20%;
     }
 }
-
-
