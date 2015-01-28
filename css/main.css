@@ -120,18 +120,18 @@ body {
     position: absolute;
     width: 20px;
     bottom: 20%;
-    left: -15px;
+    left: -30px;
     -webkit-animation: mouse 4s ease-in-out infinite alternate;
     animation: mouse 4s ease-in-out infinite alternate;
 }
 
 @-webkit-keyframes mouse {
-    0% {left: -15px;}
+    0% {left: -30px;}
     100% {left: 100%;}
 }
 
 @keyframes mouse {
-    0% {left: -15px;}
+    0% {left: -30px;}
     100% {left: 100%;}
 }
 
@@ -160,7 +160,7 @@ body {
     }
 
     .mouse {
-       width: 40px;
+        width: 40px;
         bottom:27%;
     }
 
