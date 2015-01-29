@@ -55,15 +55,39 @@ body {
     background-repeat: repeat-x;
     overflow: hidden;
     width: 100%;
-    height: 25vh;
+    height: 30vh;
     position: relative;
     margin: 0 auto;
     padding: 80px;
 }
 
+.btn {
+    background: #ce1569;
+    background-image: linear-gradient(to bottom, #ce1569, #ce1569);
+    border-radius: 28px;
+    box-shadow: 2px 2px 7px #666666;
+    color: #ffffff;
+    font-size: 6px;
+    padding: .5px 10px .5px 10px;
+    border: solid #ce1568 2px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #9420d1;
+    border: solid #9420d1 2px;
+    text-decoration: none;
+}
+.button-position {
+    position: absolute;
+    bottom:20px;
+    right: 35%;
+    font-size: .75rem;
+}
+
 .rocking-chair {
     position: absolute;
-    width: 45px;
+    width: 70px;
     bottom: 20%;
     left: 55%;
     xheight: 100px;
@@ -86,14 +110,14 @@ body {
 
 .window {
     position: absolute;
-    width: 75px;
+    width: 100px;
     left: 60%;
     bottom:50%;
 }
 
 .title {
     position: absolute;
-    width: 75px;
+    width: 120px;
     bottom: 50%;
     left: 8%;
     -webkit-animation: cloud 7s ease-in-out infinite alternate;
@@ -126,12 +150,12 @@ body {
 }
 
 @-webkit-keyframes mouse {
-    0% {left: -30px;}
+    0% {left: -80px;}
     100% {left: 100%;}
 }
 
 @keyframes mouse {
-    0% {left: -30px;}
+    0% {left: -80px;}
     100% {left: 100%;}
 }
 
@@ -141,8 +165,20 @@ body {
         height: 50vh;
     }
 
+    .btn {
+        font-size: 6px;
+        padding: 2px 15px 2px 15px;
+        font-size: 1rem;
+    }
+
+    .button-position {
+        position: absolute;
+        bottom:55px;
+        right: 35%;
+    }
+
     .rocking-chair {
-        width: 85px;
+        width: 100px;
         bottom: 27%;
         left: 50%;
     }
@@ -172,9 +208,21 @@ body {
         height: 75vh;
     }
 
+    .btn {
+        font-size: 6px;
+        padding: 10px 35px 10px 35px;
+        font-size: 1.5rem;
+    }
+
+    .button-position {
+        position: absolute;
+        bottom:75px;
+        right: 35%;
+    }
+
      .rocking-chair {
-        width: 140px;
-        bottom: 20%;
+        width: 150px;
+        bottom: 25%;
         left: 50%;
     }
 
@@ -191,8 +239,8 @@ body {
     }
 
     .mouse {
-        width: 50px;
-        bottom: 22%;
+        width: 60px;
+        bottom: 27%;
     }
 }
 
@@ -202,8 +250,20 @@ body {
         height: 100vh;
     }
 
+    .btn {
+        font-size: 6px;
+        padding: 10px 35px 10px 35px;
+        font-size: 2rem;
+    }
+
+    .button-position {
+        position: absolute;
+        bottom:40px;
+        right: 35%;
+    }
+
     .rocking-chair {
-        width: 200px;
+        width: 260px;
         bottom: 17%;
         left: 55%;
     }
@@ -215,7 +275,7 @@ body {
     }
 
     .title {
-        width: 450px;
+        width: 400px;
         bottom:50%;
         left: 10%;
     }
