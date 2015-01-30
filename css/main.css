@@ -61,6 +61,16 @@ body {
     padding: 80px;
 }
 
+.learning {
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    font-family:'Gloria Hallelujah', helvetica, serif;
+    text-align: center;
+    color: #ce1568;
+    text-shadow: 1px 1px 1px rgba(150, 150, 150, 10);
+}
+
 .btn {
     background: #ce1569;
     background-image: linear-gradient(to bottom, #ce1569, #ce1569);
@@ -117,8 +127,8 @@ body {
 
 .title {
     position: absolute;
-    width: 120px;
-    bottom: 50%;
+    width: 110px;
+    bottom: 65%;
     left: 8%;
     -webkit-animation: cloud 7s ease-in-out infinite alternate;
     animation: cloud 7s ease-in-out infinite alternate;
@@ -127,17 +137,17 @@ body {
 @-webkit-keyframes cloud{
     0% {transform: translateX(0);}
     25% {transform: translateX(9px);}
-    50% {transform: translateY(20px);}
+    50% {transform: translateY(9px);}
     75% {transform: translateX(-9px);}
-    100% {transform: translateY(10px);}
+    100% {transform: translateY(9px);}
 }
 
 @keyframes cloud{
     0% {transform: translateX(0);}
     25% {transform: translateX(9px);}
-    50% {transform: translateY(20px);}
+    50% {transform: translateY(9px);}
     75% {transform: translateX(-9px);}
-    100% {transform: translateY(10px);}
+    100% {transform: translateY(9px);}
 }
 
 .mouse {
@@ -165,6 +175,12 @@ body {
         height: 50vh;
     }
 
+    .learning {
+        position: absolute;
+        top: 35%;
+        left: 0%;
+    }
+
     .btn {
         font-size: 6px;
         padding: 2px 15px 2px 15px;
@@ -179,7 +195,7 @@ body {
 
     .rocking-chair {
         width: 100px;
-        bottom: 27%;
+        bottom: 25%;
         left: 50%;
     }
 
@@ -190,8 +206,8 @@ body {
     }
 
     .title {
-        width: 140px;
-        bottom:60%;
+        width: 160px;
+        bottom:70%;
         left: 8%;
     }
 
@@ -202,10 +218,14 @@ body {
 
 }
 
-
 @media only screen and (min-width: 38em) {
      .billboard {
         height: 75vh;
+    }
+
+     .learning {
+        position: absolute;
+        top: 40%;
     }
 
     .btn {
@@ -234,7 +254,7 @@ body {
 
     .title {
         width: 280px;
-        bottom:55%;
+        bottom:65%;
         left: 7%;
     }
 
@@ -244,10 +264,15 @@ body {
     }
 }
 
-
 @media only screen and (min-width: 60em) {
      .billboard {
         height: 100vh;
+    }
+
+    .learning {
+        position: absolute;
+        top: 40%;
+        left: 2%;
     }
 
     .btn {
@@ -276,7 +301,7 @@ body {
 
     .title {
         width: 400px;
-        bottom:50%;
+        bottom:63%;
         left: 10%;
     }
 

@@ -218,3 +218,24 @@ sub {
 .padding-left {
   padding-left: 1.5rem;
 }
+
+@media only screen and (min-width: 25em) {
+  h3, .tera {
+    font-size: 1.6018rem;
+    line-height: 1.8729;
+  }
+}
+
+@media only screen and (min-width: 38em) {
+  h3, .tera {
+    font-size: 2.0273rem;
+    line-height: 1.4798;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+   h3, .tera {
+    font-size: 4rem;
+    line-height: 1.3154;
+  }
+}
