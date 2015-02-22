@@ -73,7 +73,6 @@ body {
 
 .btn {
     background: #ce1569;
-    background-image: linear-gradient(to bottom, #ce1569, #ce1569);
     border-radius: 28px;
     box-shadow: 2px 2px 7px #666666;
     color: #ffffff;
@@ -81,6 +80,7 @@ body {
     padding: .5px 10px .5px 10px;
     border: solid #ce1568 2px;
     text-decoration: none;
+    transition: background 500ms linear;
 }
 
 .btn:hover {
