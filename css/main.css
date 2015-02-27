@@ -74,11 +74,11 @@ body {
 .pulse {
     text-align: center;
     transition: all 1s ease;
-    transform: scale (1) rotate(4deg)
+    transform: scale(1) rotate(5deg)
 }
 
 .pulse:hover {
-    transform: scale(1.1) rotate(5deg)
+    transform: scale(1.1) rotate(0deg)
 }
 
 .btn {
