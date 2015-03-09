@@ -46,12 +46,37 @@ body {
     top: 0;
 }
 
+.top-menu {
+    background-color: beige;
+}
+
+.btn-menu {
+    padding:.25rem;
+}
+
+.top-menu {
+    background-color: beige;
+}
+
+nav a {
+    color: #ce1568;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #9420d1;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
 .panel {
     xdisplay: none;
-
     max-height: 0;
     overflow: hidden;
-
+    list-style-type: none;
+    background-color: ;
 }
 
 .js-panel-open{
