@@ -46,6 +46,20 @@ body {
     top: 0;
 }
 
+.panel {
+    xdisplay: none;
+
+    max-height: 0;
+    overflow: hidden;
+
+}
+
+.js-panel-open{
+    display: block;
+    max-height: 250px;
+     transition: all 500ms ease-out;
+}
+
 .red {
     color: red;
 }
