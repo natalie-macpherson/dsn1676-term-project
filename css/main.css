@@ -48,14 +48,14 @@ body {
 
 .top-menu {
     background-color: beige;
+    overflow: hidden;
 }
 
 .btn-menu {
-    padding:.25rem;
-}
-
-.top-menu {
+    padding:.5rem .5rem 0 0 ;
+    float: right;
     background-color: beige;
+    border:none;
 }
 
 nav a {
@@ -72,17 +72,20 @@ nav ul {
 }
 
 .panel {
-    xdisplay: none;
     max-height: 0;
     overflow: hidden;
     list-style-type: none;
-    background-color: ;
+    transition: all 500ms ease-out;
+    float: right;
+    clear: right;
+    margin-right: .5rem;
+    text-align: right;
+    margin-top: .5rem;
 }
 
 .js-panel-open{
     display: block;
     max-height: 250px;
-     transition: all 500ms ease-out;
 }
 
 .red {
@@ -125,7 +128,7 @@ nav ul {
     border-radius: 28px;
     box-shadow: 2px 2px 7px #666666;
     color: #ffffff;
-    font-size: 6px;
+    font-size: 5px;
     padding: .5px 10px .5px 10px;
     border: solid #ce1568 2px;
     text-decoration: none;
@@ -153,6 +156,40 @@ main {
     margin-top: 1rem;
 }
 
+
+.lightbox {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    display: none;
+}
+
+.lightbox[data-state="visible"] {
+    display: block;
+}
+
+.lightbox-container {
+    position: absolute;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+    top: 15px;
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 1px 1px 4px #000;
+}
+
+.lightbox-img {
+    display: block;
+    width: 100%;
+}
+
+l.lighttbox-content {}
+
+/*
 .tabs {
     width: 100%;
     display: inline-block;
@@ -179,7 +216,7 @@ main {
     box-shadow:-1px 1px 1px rgba(0,0,0,0.15);
 
 }*/
-
+/*
 .tabs a {
     text-decoration: none;
     padding: 9px 15px;
@@ -208,6 +245,7 @@ main {
     box-shadow: -1px 1px 1px rgba(0,0,0,0.15);
     background: beige;
 }
+*/
 
 .rocking-chair {
     position: absolute;
