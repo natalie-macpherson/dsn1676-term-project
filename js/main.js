@@ -19,6 +19,8 @@ $tabs.on('click', 'a', function (e) {
   e.preventDefault();
   var id = $(this).attr('href');
 
+  console.log ($panels.filter(':not([hidden])'));
+
   $panels.filter(':not([hidden])').attr('hidden', true);
   $(id).removeAttr('hidden');
 

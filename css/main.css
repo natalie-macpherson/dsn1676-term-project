@@ -167,10 +167,10 @@ main {
 
 
 .tabs li {
-    xdisplay: inline-block;
     float: left;
     list-style: none;
     background:pink;
+    margin: 0px 5px;
 }
 
 /*
@@ -192,22 +192,21 @@ main {
     transition:all linear 0.15s;
 }
 
-tabs a:hover {
+.tabs a:hover {
     background:#a7cce5;
     color:#4c4c4c;
 }
 
-
 .js-current {
-  background-color: pink;
+    background-color: pink;
     padding:9px 15px;
-            display:inline-block;
-            border-radius:3px 3px 0px 0px;
-            background:#7FB5DA;
-            font-size:16px;
-            font-weight:600;
-            color:#4c4c4c;
-            transition:all linear 0.15s;
+}
+
+.tab-panels {
+    padding: 15px;
+    border-radius: 3px;
+    box-shadow: -1px 1px 1px rgba(0,0,0,0.15);
+    background: beige;
 }
 
 .rocking-chair {
