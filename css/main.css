@@ -144,6 +144,72 @@ nav ul {
     font-size: .75rem;
 }
 
+[hidden] {
+  display: none;
+}
+
+
+main {
+    margin-top: 1rem;
+}
+
+.tabs {
+    width: 100%;
+    display: inline-block;
+}
+
+.tabs:after {
+    display: block;
+    clear: both;
+    content: '';
+}
+
+
+
+.tabs li {
+    xdisplay: inline-block;
+    float: left;
+    list-style: none;
+    background:pink;
+}
+
+/*
+    padding:15px;
+    border-radius:3px;
+    box-shadow:-1px 1px 1px rgba(0,0,0,0.15);
+
+}*/
+
+.tabs a {
+    text-decoration: none;
+    padding: 9px 15px;
+    display: inline-block;
+    border-radius: 3px 3px 0px 0px;
+    background-color: #7FB5DA;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #4c4c4c;
+    transition:all linear 0.15s;
+}
+
+tabs a:hover {
+    background:#a7cce5;
+    color:#4c4c4c;
+}
+
+
+.js-current {
+  background-color: pink;
+    padding:9px 15px;
+            display:inline-block;
+            border-radius:3px 3px 0px 0px;
+            background:#7FB5DA;
+            font-size:16px;
+            font-weight:600;
+            color:#4c4c4c;
+            transition:all linear 0.15s;
+}
+
 .rocking-chair {
     position: absolute;
     width: 70px;
