@@ -133,7 +133,7 @@ nav ul {
     padding: .5px 10px .5px 10px;
     border: solid #ce1568 2px;
     text-decoration: none;
-    transition: background 500ms linear;
+    transition: background 550ms linear;
 }
 
 .btn:hover {
