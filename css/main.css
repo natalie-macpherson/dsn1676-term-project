@@ -237,7 +237,8 @@ main {
 .lightbox-img {
     display: block;
     width: 100%;
-    padding-top: 10px;
+    padding: 10px;
+    margin-left: .5em;
 
 }
 
@@ -458,5 +459,7 @@ main {
 
     .lightbox-img {
         height: 90%;
+        width: 95%;
+        margin-left: 2em;
     }
 }
