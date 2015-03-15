@@ -10,6 +10,8 @@ $btnMenu.on('click', function () {
 	$panel.toggleClass('js-panel-open');
 });
 
+$('.nav').localScroll();
+
 $thumbs.on('click', 'a', function(e){
 	e.preventDefault();
 	var big = $(this).attr('href');
