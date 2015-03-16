@@ -106,7 +106,7 @@ nav ul {
     height: 30vh;
     position: relative;
     margin: 0 auto;
-    padding: 80px;
+    padding: 0px;
 }
 
 .learning {
@@ -308,18 +308,22 @@ main {
     width: 20px;
     bottom: 20%;
     left: -30px;
-    -webkit-animation: mouse 4s ease-in-out infinite alternate;
-    animation: mouse 4s ease-in-out infinite alternate;
+    -webkit-animation: mouse 8s ease-in-out infinite;
+    animation: mouse 8s ease-in-out infinite;
 }
 
 @-webkit-keyframes mouse {
-    0% {left: -80px;}
-    100% {left: 100%;}
+    0% {left: -80px; transform: scaleX(-1); }
+    49.9% { transform: scaleX(-1); }
+    50% {left: 100%; transform: scaleX(1); }
+    99.9% { transform: scaleX(1); }
+    100% {left: -80px; transform: scaleX(-1); }
 }
 
 @keyframes mouse {
     0% {left: -80px;}
-    100% {left: 100%;}
+    50% {left: 100%;}
+    100% {left: -80px;}
 }
 
 @media only screen and (min-width: 25em) {
