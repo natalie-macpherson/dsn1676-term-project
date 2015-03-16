@@ -79,6 +79,7 @@ nav ul {
     max-height: 0;
     overflow: hidden;
     list-style-type: none;
+    -webkit-transition: all 500ms ease-out;
     transition: all 500ms ease-out;
     float: right;
     clear: right;
@@ -120,11 +121,14 @@ nav ul {
 
 .pulse {
     text-align: center;
+    -webkit-transition: all 1s ease;
+    -webkit-transform: scale(1) rotate(5deg)
     transition: all 1s ease;
     transform: scale(1) rotate(5deg)
 }
 
 .pulse:hover {
+    -webkit-transform: scale(1.1) rotate(0deg)
     transform: scale(1.1) rotate(0deg)
 }
 
@@ -138,6 +142,7 @@ nav ul {
     padding: .5px 10px .5px 10px;
     border: solid #ce1568 2px;
     text-decoration: none;
+    -webkit-transition: background 550ms linear;
     transition: background 550ms linear;
 }
 
@@ -194,6 +199,7 @@ main {
     bottom: 0;
     background-color: rgba(0,0,0,0.5);
     opacity: 0;
+    -webkit-transition: all 500ms linear;
     transition: all 500ms linear;
 
 }
