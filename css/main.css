@@ -9,7 +9,6 @@ html {
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
     text-size-adjust: 100%;
-
 }
 
 *, *:before, *:after {
@@ -20,7 +19,6 @@ body {
     margin: 0;
     padding: 0;
     background-color: #b3e4ff;
-
 }
 
 .img-flex {
@@ -152,6 +150,7 @@ nav ul {
     background-image: linear-gradient(to bottom, #ce1569, #9420d1);
     text-decoration: none;
 }
+
 .button-position {
     position: absolute;
     bottom:20px;
@@ -201,7 +200,6 @@ main {
     opacity: 0;
     -webkit-transition: all 500ms linear;
     transition: all 500ms linear;
-
 }
 
 .lightbox[data-state="visible"] {
@@ -220,7 +218,6 @@ main {
     border-radius: 6px;
     box-shadow: 1px 1px 4px #000;
 }
-
 
 .btn-close {
   border-radius: 50px;
@@ -326,6 +323,20 @@ main {
     100% {left: -80px;}
 }
 
+.wrapper {
+  text-align: center;
+}
+
+.section-beige {
+  background-color: beige;
+  color: #fff;
+}
+
+.bottom-link {
+    text-decoration: none;
+    color: #ce1569;
+}
+
 @media only screen and (min-width: 25em) {
 
     .billboard {
@@ -372,7 +383,6 @@ main {
         width: 40px;
         bottom:27%;
     }
-
 }
 
 @media only screen and (min-width: 38em) {
