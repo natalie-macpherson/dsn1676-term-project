@@ -102,8 +102,8 @@ nav ul {
     background-size: cover;
     background-position: center;
     overflow: hidden;
-    xwidth: 100vh;
-    height: 35vh;
+    xwidth: 110vh;
+    height: 25vh;
     position: relative;
     margin: 0 auto;
     padding-top: 53%;
@@ -139,7 +139,7 @@ nav ul {
     box-shadow: 0px 1px 3px #666666;
     color: #ffffff;
     font-size: 5px;
-    padding: .5px 10px .5px 10px;
+    padding: .25px 7px .25px 7px;
     border: solid #ce1568 2px;
     text-decoration: none;
     -webkit-transition: background 550ms linear;
@@ -155,7 +155,7 @@ nav ul {
 
 .button-position {
     position: absolute;
-    bottom:20px;
+    bottom:4px;
     right: 35%;
     font-size: .75rem;
 }
@@ -200,8 +200,8 @@ main {
     bottom: 0;
     background-color: rgba(0,0,0,0.5);
     opacity: 0;
-    -webkit-transition: all 500ms linear;
-    transition: all 500ms linear;
+    -webkit-transition: all 250ms linear;
+    transition: all 250ms linear;
 }
 
 .lightbox[data-state="visible"] {
@@ -249,9 +249,9 @@ main {
 
 .rocking-chair {
     position: absolute;
-    width: 100px;
-    bottom: 15%;
-    left: 45%;
+    width: 90px;
+    bottom: 10%;
+    left: 55%;
     xheight: 100px;
     -webkit-transform-origin:center bottom;
     -webkit-animation: chair-rock 3s ease-in-out infinite alternate;
@@ -272,9 +272,9 @@ main {
 
 .window {
     position: absolute;
-    width: 100px;
+    width: 93px;
     left: 60%;
-    bottom:50%;
+    bottom:35%;
 }
 
 .title {
@@ -342,7 +342,7 @@ main {
 @media only screen and (min-width: 25em) {
 
     .billboard {
-        height: 50vh;
+        height: 10vh;
     }
 
     .learning {
