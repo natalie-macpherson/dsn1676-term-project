@@ -97,7 +97,7 @@ nav ul {
 }
 
 .billboard {
-    background-image: url("../img/billboard-bg-colour.jpg");
+    background-image: url("../img/test-bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -106,7 +106,7 @@ nav ul {
     height: 35vh;
     position: relative;
     margin: 0 auto;
-    padding: 0px;
+    padding-top: 53%;
 }
 
 .learning {
@@ -249,9 +249,9 @@ main {
 
 .rocking-chair {
     position: absolute;
-    width: 70px;
-    bottom: 20%;
-    left: 55%;
+    width: 100px;
+    bottom: 15%;
+    left: 45%;
     xheight: 100px;
     -webkit-transform-origin:center bottom;
     -webkit-animation: chair-rock 3s ease-in-out infinite alternate;
@@ -435,7 +435,7 @@ main {
 
 @media only screen and (min-width: 60em) {
      .billboard {
-        height: 130vh;
+        height: 95vh;
     }
 
     .learning {
@@ -457,14 +457,14 @@ main {
     }
 
     .rocking-chair {
-        width: 260px;
-        bottom: 17%;
-        left: 55%;
+        width: 350px;
+        bottom: 2%;
+        left: 65%;
     }
 
     .window {
-        width: 380px;
-        bottom: 50%;
+        width: 400px;
+        bottom: 27%;
         left: 60%;
     }
 
