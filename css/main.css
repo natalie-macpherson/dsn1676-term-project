@@ -97,7 +97,7 @@ nav ul {
 }
 
 .billboard {
-    background-image: url("../img/billboard-bg.jpg");
+    background-image: url("../img/billboard-bg-colour.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -410,7 +410,7 @@ main {
     }
 
      .rocking-chair {
-        width: 150px;
+        width: 250px;
         bottom: 25%;
         left: 50%;
     }
@@ -435,7 +435,7 @@ main {
 
 @media only screen and (min-width: 60em) {
      .billboard {
-        height: 100vh;
+        height: 130vh;
     }
 
     .learning {
