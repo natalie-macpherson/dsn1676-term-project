@@ -102,7 +102,6 @@ nav ul {
     background-size: cover;
     background-position: center;
     overflow: hidden;
-    xwidth: 110vh;
     height: 25vh;
     position: relative;
     margin: 0 auto;
@@ -250,8 +249,8 @@ main {
 .rocking-chair {
     position: absolute;
     width: 90px;
-    bottom: 10%;
-    left: 55%;
+    bottom: 7%;
+    left: 65%;
     xheight: 100px;
     -webkit-transform-origin:center bottom;
     -webkit-animation: chair-rock 3s ease-in-out infinite alternate;
@@ -272,7 +271,7 @@ main {
 
 .window {
     position: absolute;
-    width:350px;
+    width:90px;
     left: 60%;
     bottom:35%;
 }
@@ -280,16 +279,16 @@ main {
 
 .day-img {
     position: absolute;
-    width: 200px;
-    height: 300px;
-    bottom: 45%;
-    left: 65%;
+    width: 60px;
+    height: 95px;
+    bottom: 43%;
+    left:65%;
 }
 
 .title {
     position: absolute;
-    width: 110px;
-    bottom: 65%;
+    width: 100px;
+    bottom: 67%;
     left: 8%;
     -webkit-animation: cloud 7s ease-in-out infinite alternate;
     animation: cloud 7s ease-in-out infinite alternate;
@@ -379,13 +378,13 @@ main {
     }
 
     .window {
-        width: 150px;
+        width: 50px;
         bottom:55%;
         left: 50%;
     }
 
     .title {
-        width: 160px;
+        width: 100px;
         bottom:70%;
         left: 8%;
     }
@@ -430,11 +429,11 @@ main {
         left: 58%;
     }
 
-    .title {
+    /*.title {
         width: 280px;
         bottom:65%;
         left: 7%;
-    }
+    }*/
 
     .mouse {
         width: 60px;
@@ -477,16 +476,16 @@ main {
         left: 60%;
     }
 }
-    .title {
+    /*.title {
         width: 400px;
         bottom:63%;
         left: 10%;
-    }
+    }*/
 
-    .mouse {
+    /*.mouse {
         width: 70px;
         bottom: 20%;
-    }
+    }*/
 
     .lightbox-img {
         height: 90%;
