@@ -122,13 +122,13 @@ nav ul {
 .pulse {
     text-align: center;
     -webkit-transition: all 1s ease;
-    -webkit-transform: scale(1) rotate(5deg)
+    -webkit-transform: scale(1) rotate(5deg);
     transition: all 1s ease;
     transform: scale(1) rotate(5deg)
 }
 
 .pulse:hover {
-    -webkit-transform: scale(1.1) rotate(0deg)
+    -webkit-transform: scale(1.1) rotate(0deg);
     transform: scale(1.1) rotate(0deg)
 }
 
@@ -272,9 +272,18 @@ main {
 
 .window {
     position: absolute;
-    width: 93px;
+    width:350px;
     left: 60%;
     bottom:35%;
+}
+
+
+.day-img {
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    bottom: 45%;
+    left: 65%;
 }
 
 .title {
@@ -463,11 +472,11 @@ main {
     }
 
     .window {
-        width: 400px;
-        bottom: 27%;
+        width: 320px;
+        bottom: 35%;
         left: 60%;
     }
-
+}
     .title {
         width: 400px;
         bottom:63%;
