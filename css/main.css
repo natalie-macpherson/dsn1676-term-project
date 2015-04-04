@@ -18,7 +18,7 @@ html {
 body {
     margin: 0;
     padding: 0;
-    background-color: #b3e4ff;
+    background-color: #68d8e0;
 }
 
 .img-flex {
@@ -48,20 +48,20 @@ body {
 }
 
 .top-menu {
-    background-color: beige;
+    background-color: #68d8e0;
     overflow: hidden;
 }
 
 .btn-menu {
     padding:.5rem 1rem 0 0 ;
     float: right;
-    background-color: beige;
+    background-color: #68d8e0;
     border:none;
     width: 50px;
 }
 
 nav a {
-    color: #ce1568;
+    color: white;
     text-decoration: none;
 }
 
@@ -102,7 +102,7 @@ nav ul {
     background-size: cover;
     background-position: center;
     overflow: hidden;
-    height: 25vh;
+    height: 30vh;
     position: relative;
     margin: 0 auto;
     padding-top: 53%;
@@ -249,8 +249,8 @@ main {
 .rocking-chair {
     position: absolute;
     width: 90px;
-    bottom: 7%;
-    left: 65%;
+    bottom: 12%;
+    left: 60%;
     xheight: 100px;
     -webkit-transform-origin:center bottom;
     -webkit-animation: chair-rock 3s ease-in-out infinite alternate;
@@ -271,8 +271,8 @@ main {
 
 .window {
     position: absolute;
-    width:90px;
-    left: 60%;
+    width:96px;
+    left: 58%;
     bottom:35%;
 }
 
@@ -312,8 +312,8 @@ main {
 
 .mouse {
     position: absolute;
-    width: 20px;
-    bottom: 20%;
+    width: 30px;
+    bottom: 12%;
     left: -30px;
     -webkit-animation: mouse 8s ease-in-out infinite;
     animation: mouse 8s ease-in-out infinite;
@@ -338,13 +338,13 @@ main {
 }
 
 .section-beige {
-  background-color: beige;
+  background-color: #68d8e0;
   color: #fff;
 }
 
 .bottom-link {
     text-decoration: none;
-    color: #ce1569;
+    color: white;
 }
 
 @media only screen and (min-width: 25em) {
