@@ -350,13 +350,14 @@ main {
 @media only screen and (min-width: 25em) {
 
     .billboard {
-        height: 10vh;
+        height: 50vh;
     }
 
     .learning {
         position: absolute;
-        top: 35%;
-        left: 0%;
+        top: 45%;
+        left: 5%;
+
     }
 
     .btn {
@@ -367,37 +368,44 @@ main {
 
     .button-position {
         position: absolute;
-        bottom:55px;
+        bottom:3px;
         right: 35%;
     }
 
     .rocking-chair {
-        width: 100px;
-        bottom: 25%;
-        left: 50%;
+        width: 155px;
+        bottom: 13%;
+        left: 60%;
     }
 
     .window {
-        width: 50px;
-        bottom:55%;
-        left: 50%;
+        width: 150px;
+        bottom:40%;
+        left: 60%;
+    }
+
+    .day-img {
+        width: 200px;
+        height: 135px;
+        bottom: 50%;
+        left: 55%;
     }
 
     .title {
-        width: 100px;
-        bottom:70%;
+        width: 170px;
+        bottom:63%;
         left: 8%;
     }
 
     .mouse {
         width: 40px;
-        bottom:27%;
+        bottom:15%;
     }
 }
 
 @media only screen and (min-width: 38em) {
      .billboard {
-        height: 75vh;
+        height: 90vh;
     }
 
      .learning {
@@ -413,42 +421,49 @@ main {
 
     .button-position {
         position: absolute;
-        bottom:75px;
+        bottom:5px;
         right: 35%;
     }
 
      .rocking-chair {
-        width: 250px;
-        bottom: 25%;
-        left: 50%;
-    }
-
-    .window {
-        width: 260px;
-        bottom: 50%;
+        width: 300px;
+        bottom: 10%;
         left: 58%;
     }
 
-    /*.title {
-        width: 280px;
+    .window {
+        width: 320px;
+        bottom: 35%;
+        left: 58%;
+    }
+
+     .day-img {
+        width: 300px;
+        height: 290px;
+        bottom: 45%;
+        left: 60%;
+    }
+
+    .title {
+        width: 350px;
         bottom:65%;
         left: 7%;
-    }*/
+    }
 
     .mouse {
-        width: 60px;
-        bottom: 27%;
+        width: 70px;
+        bottom: 13%;
     }
 }
 
 @media only screen and (min-width: 60em) {
      .billboard {
-        height: 95vh;
+        height: 102vh;
     }
 
     .learning {
         position: absolute;
-        top: 45%;
+        top: 40%;
         left: 2%;
     }
 
@@ -460,32 +475,39 @@ main {
 
     .button-position {
         position: absolute;
-        bottom:40px;
+        bottom:10px;
         right: 40%;
     }
 
     .rocking-chair {
-        width: 350px;
-        bottom: 2%;
+        width: 360px;
+        bottom: 7%;
         left: 65%;
     }
 
     .window {
-        width: 320px;
+        width: 365px;
         bottom: 35%;
         left: 60%;
     }
-}
-    /*.title {
-        width: 400px;
+
+    .day-img {
+        width: 250px;
+        height: 340px;
+        bottom: 46%;
+        left: 65%;
+    }
+
+    .title {
+        width: 440px;
         bottom:63%;
         left: 10%;
-    }*/
+    }
 
-    /*.mouse {
-        width: 70px;
-        bottom: 20%;
-    }*/
+    .mouse {
+        width: 90px;
+        bottom: 12%;
+    }
 
     .lightbox-img {
         height: 90%;

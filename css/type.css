@@ -228,6 +228,11 @@ sub {
     font-size: 1.6018rem;
     line-height: 1.8729;
   }
+
+  h5, .mega {
+    font-size: 1.6018rem;
+  }
+
 }
 
 @media only screen and (min-width: 38em) {
@@ -235,11 +240,21 @@ sub {
     font-size: 2.2807rem;
     line-height: 1.3154;
   }
+
+  h5, .mega {
+    font-size: 3rem;
+    line-height: 1.4798;
+  }
 }
 
 @media only screen and (min-width: 60em) {
    h3, .tera {
     font-size: 4rem;
     line-height: 1;
+  }
+
+   h5, .mega {
+    font-size: 3.74rem;
+    line-height: 1.4798;
   }
 }
