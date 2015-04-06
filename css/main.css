@@ -276,13 +276,28 @@ main {
     bottom:35%;
 }
 
-
 .day-img {
     position: absolute;
     width: 60px;
     height: 95px;
     bottom: 43%;
     left:65%;
+}
+
+#night {
+    opacity: 0;
+}
+
+.js-night-active#night{
+    opacity: 1;
+}
+
+#day {
+    opacity: 0
+}
+
+.js-day-active#day {
+    opacity: 1;
 }
 
 .title {

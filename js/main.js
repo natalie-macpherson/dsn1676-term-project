@@ -5,6 +5,10 @@ var $thumbs = $('.thumbnails');
 var $lightboxImg = $('.lightbox-img');
 var $lb = $('.lightbox');
 var $btnClose = $('.btn-close');
+var $night = $('#night');
+var $day = $('#day');
+var current=new Date()
+var dayNight=current.getHours()
 
 $btnMenu.on('click', function () {
 	$panel.toggleClass('js-panel-open');
@@ -23,13 +27,17 @@ $btnClose.on('click', function() {
  $lb.attr('data-state', 'hidden');
 });
 
-//var=current=newDate()
-//var dayNight=current.getHour
-//var=$img.attr(“src”,”name of the image tag”)
+//changing image in window based on time of day
 
-//if dayNight=>12
-	//$img.attr("<img src=‘’>”)
-//else
-	//$img.attr(”<img src=‘'>”)
+var $night = $('#night');
+var $day = $('#day');
+var current=new Date()
+var dayNight=current.getHours()
 
-
+if (dayNight>=19 || dayNight <= 5){
+	$night.attr('class', 'js-night-active');
+	$day.removeAttr('class');
+}else{
+	$day.attr('class', 'js-day-active');
+	$night.removeAttr('class');
+}
