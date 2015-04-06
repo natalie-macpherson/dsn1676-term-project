@@ -10,11 +10,16 @@ var $day = $('#day');
 var current=new Date()
 var dayNight=current.getHours()
 
+//Toggle navigation
+
 $btnMenu.on('click', function () {
 	$panel.toggleClass('js-panel-open');
 });
 
 $('.nav').localScroll();
+
+
+//Lightbox
 
 $thumbs.on('click', 'a', function(e){
 	e.preventDefault();
@@ -26,6 +31,7 @@ $thumbs.on('click', 'a', function(e){
 $btnClose.on('click', function() {
  $lb.attr('data-state', 'hidden');
 });
+
 
 //changing image in window based on time of day
 
