@@ -20,7 +20,7 @@ body {
     padding: 0;
     background-color: #68d8e0;
 }
-
+/************************************************************************* navigation */
 .img-flex {
     display: block;
     width: 100%;
@@ -96,6 +96,8 @@ nav ul {
     color: red;
 }
 
+/****************************************************************************** Billboard*/
+
 .billboard {
     background-image: url("../img/bg.jpg");
     background-repeat: no-repeat;
@@ -157,93 +159,6 @@ nav ul {
     bottom:4px;
     right: 35%;
     font-size: .75rem;
-}
-
-.game-type {
-    font-family: Arial, sans-serif;
-    background-color:#ce1568;
-    color: white;
-    border-top-left-radius:0px;
-    border-top-right-radius:73px;
-    border-bottom-left-radius:0px;
-    border-bottom-right-radius:73px;
-}
-
-.games {
-    text-align: center;
-    color: #ce1568;
-    font-family: Arial, sans-serif;
-    text-shadow: 1px 1px 1px rgba(150, 150, 150, 10);
-    text-transform:  uppercase;
-}
-
-.border {
-    border: solid white 5px;
-    border-top: solid white 15px;
-    border-bottom: solid white 15px;
-}
-
-[hidden] {
-  display: none;
-}
-
-main {
-    margin-top: 1rem;
-}
-
-.lightbox {
-    position: fixed;
-    left: 100%;
-    right: -100%;
-    top: 0;
-    bottom: 0;
-    background-color: rgba(0,0,0,0.5);
-    opacity: 0;
-    -webkit-transition: all 250ms linear;
-    transition: all 250ms linear;
-}
-
-.lightbox[data-state="visible"] {
-    opacity: 1;
-    left: 0;
-    right: 0;
-}
-
-.lightbox-container {
-    position: absolute;
-    left: 15px;
-    right: 15px;
-    bottom: 15px;
-    top: 15px;
-    background-color: #0d0111;
-    border-radius: 6px;
-    box-shadow: 1px 1px 4px #000;
-}
-
-.btn-close {
-  border-radius: 50px;
-  box-shadow: 0px 1px 3px #666666;
-  font-family: Arial;
-  color: #fff;
-  font-size: 20px;
-  background: #ce1569;
-  padding: 10px 15px 10px 15px;
-  border: solid #ce1568 2px;
-  text-decoration: none;
-}
-
-.btn-close:hover {
-  background: #3cb0fd;
-  background-image: linear-gradient(to bottom, #ce1569, #9420d1);
-  text-decoration: none;
-}
-
-.lightbox-img {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    margin-left: .5em;
-
 }
 
 .rocking-chair {
@@ -347,6 +262,96 @@ main {
     50% {left: 100%;}
     100% {left: -80px;}
 }
+
+/******************************************************************game */
+
+.game-type {
+    font-family: Arial, sans-serif;
+    background-color:#ce1568;
+    color: white;
+    border-top-left-radius:0px;
+    border-top-right-radius:73px;
+    border-bottom-left-radius:0px;
+    border-bottom-right-radius:73px;
+}
+
+.games {
+    text-align: center;
+    color: #ce1568;
+    font-family: Arial, sans-serif;
+    text-shadow: 1px 1px 1px rgba(150, 150, 150, 10);
+    text-transform:  uppercase;
+}
+
+.border {
+    border: solid white 5px;
+    border-top: solid white 15px;
+    border-bottom: solid white 15px;
+}
+
+[hidden] {
+  display: none;
+}
+
+main {
+    margin-top: 1rem;
+}
+
+.lightbox {
+    position: fixed;
+    left: 100%;
+    right: -100%;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    opacity: 0;
+    -webkit-transition: all 250ms linear;
+    transition: all 250ms linear;
+}
+
+.lightbox[data-state="visible"] {
+    opacity: 1;
+    left: 0;
+    right: 0;
+}
+
+.lightbox-container {
+    position: absolute;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+    top: 15px;
+    background-color: #0d0111;
+    border-radius: 6px;
+    box-shadow: 1px 1px 4px #000;
+}
+
+.btn-close {
+  border-radius: 50px;
+  box-shadow: 0px 1px 3px #666666;
+  font-family: Arial;
+  color: #fff;
+  font-size: 20px;
+  background: #ce1569;
+  padding: 10px 15px 10px 15px;
+  border: solid #ce1568 2px;
+  text-decoration: none;
+}
+
+.btn-close:hover {
+  background: #3cb0fd;
+  background-image: linear-gradient(to bottom, #ce1569, #9420d1);
+  text-decoration: none;
+}
+
+.lightbox-img {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-left: .5em;
+}
+
+/***************************************************************** footer*/
 
 .wrapper {
   text-align: center;
