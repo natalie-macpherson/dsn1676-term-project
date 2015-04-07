@@ -187,8 +187,8 @@ nav ul {
 .window {
     position: absolute;
     width:96px;
-    left: 58%;
-    bottom:35%;
+    left: 59%;
+    bottom:36%;
 }
 
 .day-img {
@@ -401,9 +401,9 @@ main {
     }
 
     .window {
-        width: 150px;
-        bottom:40%;
-        left: 60%;
+        width: 155px;
+        bottom:41%;
+        left: 59%;
     }
 
     .day-img {
@@ -454,8 +454,8 @@ main {
     }
 
     .window {
-        width: 320px;
-        bottom: 35%;
+        width: 333px;
+        bottom: 36%;
         left: 58%;
     }
 
@@ -508,9 +508,9 @@ main {
     }
 
     .window {
-        width: 365px;
+        width: 383px;
         bottom: 35%;
-        left: 60%;
+        left: 59%;
     }
 
     .day-img {
