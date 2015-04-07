@@ -218,7 +218,7 @@ nav ul {
 .title {
     position: absolute;
     width: 100px;
-    bottom: 67%;
+    bottom: 64%;
     left: 8%;
     -webkit-animation: cloud 7s ease-in-out infinite alternate;
     animation: cloud 7s ease-in-out infinite alternate;
@@ -522,7 +522,7 @@ main {
 
     .title {
         width: 440px;
-        bottom:63%;
+        bottom:60%;
         left: 10%;
     }
 
