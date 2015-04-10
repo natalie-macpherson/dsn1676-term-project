@@ -245,8 +245,8 @@ nav ul {
     width: 30px;
     bottom: 12%;
     left: -30px;
-    -webkit-animation: mouse 8s ease-in-out infinite;
-    animation: mouse 8s ease-in-out infinite;
+    -webkit-animation: mouse 10s ease-in-out infinite;
+    animation: mouse 10s ease-in-out infinite;
 }
 
 @-webkit-keyframes mouse {
